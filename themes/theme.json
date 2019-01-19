@@ -13,16 +13,15 @@
     "selection.background": "#A6ACCD",
     "progressBar.background": "#80CBC4",
     "textLink.foreground": "#80CBC4",
-    "textLink.activeForeground": "#A6ACCD",
+    "textLink.activeForeground": "#90A4AE",
     "editorLineNumber.foreground": "#CFD8DC",
     "editorLineNumber.activeForeground": "#627883",
-    "editorBracketMatch.border": "#f6f6f6",
-    "editorBracketMatch.background": "#FFFFFF",
+    "editorBracketMatch.border": "#CCD7DA50",
+    "editorBracketMatch.background": "#CCD7DA50",
     "editorWhitespace.foreground": "#A6ACCD40",
-    "settings.background": "#777",
     "editor.background": "#FFFFFF",
     "editor.foreground": "#597078",
-    "editor.lineHighlightBackground": "#CCD7DA50",
+    "editor.lineHighlightBackground": "#f6f6f6",
     "editor.selectionBackground": "#80CBC440",
     "editor.selectionHighlightBackground": "#27272720",
     "editorOverviewRuler.border": "#292D3E",
@@ -347,6 +346,13 @@
       ],
       "settings": {
         "foreground": "#4f99b8"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#597078"
       }
     },
     {
