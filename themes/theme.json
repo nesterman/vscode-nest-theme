@@ -277,8 +277,8 @@
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
+        "punctuation.definition.tag.end.html"
+        
       ],
       "settings": {
         "foreground": "#3fb3a8"
@@ -290,7 +290,7 @@
         "meta.tag"
       ],
       "settings": {
-        "foreground": "#91b859"
+        "foreground": "#597078"
       }
     },
     {
@@ -335,7 +335,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Tag Attribute",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -861,7 +861,10 @@
     },
     {
       "name": "Brace",
-      "scope": "punctuation.section.embedded.js",
+      "scope": [
+        "punctuation.section.embedded.js", 
+        "punctuation.section.embedded"
+      ],
       "settings": {
         "foreground": "##597078"
       }
