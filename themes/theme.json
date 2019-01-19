@@ -161,16 +161,16 @@
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionForeground": "#80CBC4",
     "menubar.selectionBorder": "#00000030",
-    "settings.dropdownForeground": "#A6ACCD",
-    "settings.dropdownBackground": "#1B1E2B",
-    "settings.numberInputForeground": "#A6ACCD",
-    "settings.numberInputBackground": "#1B1E2B",
-    "settings.textInputForeground": "#A6ACCD",
-    "settings.textInputBackground": "#1B1E2B",
+    "settings.dropdownForeground": "#90A4AE",
+    "settings.dropdownBackground": "#FAFAFA",
+    "settings.numberInputForeground": "#90A4AE",
+    "settings.numberInputBackground": "#FAFAFA",
+    "settings.textInputForeground": "#90A4AE",
+    "settings.textInputBackground": "#FAFAFA",
     "settings.headerForeground": "#80CBC4",
     "settings.modifiedItemIndicator": "#80CBC4",
-    "settings.checkboxBackground": "#1B1E2B",
-    "settings.checkboxForeground": "#A6ACCD"
+    "settings.checkboxBackground": "#FAFAFA",
+    "settings.checkboxForeground": "#90A4AE"
   },
   "tokenColors": [
     {
