@@ -1,0 +1,55 @@
+{
+  "name": "material-nest-theme",
+  "publisher": "whizkydee",
+  "author": "Nick Nesterov",
+  "displayName": "Nest Theme",
+  "version": "1.0.40",
+  "description": "An elegant and juicy material-like theme for Visual Studio Code.",
+  "galleryBanner": {
+    "color": "#31364A",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "material theme",
+    "palenight",
+    "material",
+    "purple",
+    "dark"
+  ],
+  "repository": {
+    "url": "https://github.com/nesterman/vscode-nest-theme",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/nesterman/vscode-nest-theme/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "build": "nodemon --watch src src"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nest Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "vsce": "^1.31.0"
+  },
+  "__metadata": {
+    "publisherDisplayName": "Nick Nesterov"
+  }
+}
