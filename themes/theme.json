@@ -315,6 +315,17 @@
       }
     },
     {
+      "name": "JSX Text",
+      "scope": [
+        "meta.tag.js",
+        "meta.tag.tsx",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#597078"
+      }
+    },
+    {
       "name": "C-related Block Level Variables",
       "scope": [
         "source.cpp meta.block variable.other"
@@ -393,7 +404,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#8796B0"
+        "foreground": "#FF5370"
       }
     },
     {
